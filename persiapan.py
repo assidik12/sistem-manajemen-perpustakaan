@@ -31,7 +31,7 @@ if __name__ == "__main__":
         user_option = input("masukan opsi : ")
         match user_option:
             case "1": CRUD.read_console()
-            case "2": print("Create data")
+            case "2": CRUD.create_console()
             case "3": print("Update data")
             case "4": print("delete data")
     
